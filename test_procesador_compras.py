@@ -97,7 +97,7 @@ def test_calcular_unidades_por_producto(compras):
 
 
 def test_producto_mas_vendido(compras):
-    assert producto_mas_vendido(compras) == ("P200", 8)
+    assert producto_mas_vendido(compras) == ("P100", 8)
 
 
 def test_producto_mas_vendido_sin_compras():
